@@ -1,0 +1,40 @@
+.modalContainer {
+  border: 3px solid white;
+  border-radius: 15px;
+  width: 325px;
+  height: 121px;
+  background-color: #2dcdff;
+  position: absolute;
+  z-index: 555;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  box-shadow: 8px 9px 100px 47px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.modalBtnContainer {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.modalBtn {
+  width: 20%;
+  height: 100%;
+  border-radius: 3px;
+  position: relative;
+  right: 7%;
+  border: none;
+  background-color: #fff;
+}
+.content {
+  text-align: center;
+  font-size: 28px;
+  font-family: fantasy;
+  color: white;
+}
